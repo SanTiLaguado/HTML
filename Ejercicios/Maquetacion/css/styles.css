@@ -6,74 +6,93 @@
 #contenedor{
     width: 1000px;
     height: 800px;
-    background-color: red;
+    border: red;
+    border-style: solid;
+    border-width: 5px;
 
     margin: 0.5em auto;
     padding: 0.5em;
 }
 
-#cont{
-    width: 980px;
-    height: 780px;
-    background-color: white;
-
-    margin: 0em auto;
-    padding: 0.5em;
-}
-#logo{
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    margin: 0.5em;
-    padding: 1em;
-}
 #header{
-    height: 20%;
-    background-color: rgb(70, 43, 226);
+    height: 250px;
+    border: blue;
+    border-style: solid;
+    border-width: 5px;
     margin: 0em
 }
 
-#nav{
-    height: 10%;
-    background-color: cadetblue;
-    margin: 1em;
-    border-radius: 1em;
+#logo{
+    height: 77%;
+    width: 200px;
+    border: greenyellow;
+    border-width: 5px;
+    border-style: solid;
+    float: left;
+    text-align: center;
+    margin: 0.5em;
+    padding: 1em;
+}
+
+#banner{
+    width: 674px;
+    height: 77%;
+    border: greenyellow;
+    border-width: 5px;
+    border-style: solid;
+    float: right;
+    text-align: center;
+
+    margin: 0.5em;
+    padding: 1em;
 }
 
 #contenido{
-    height: 53%;
-    margin: 1em;
+    height: 65px;
+    border: blue;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 0.5em;
 }
 
-#footer{
-    height: 15%;
-    background-color: darkolivegreen;
-    margin: 1em;
-    border-radius: 1em;
+#conteni2{
+    height: 355px;
+    border: blue;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 0.5em;    
 }
 
-#section{
-    height: 100%;
-    width: 68%;
-    background-color: aquamarine;
-    margin-left: 0.5em;
-    border-radius: 1em;
+#article{
+    height: 83%;
+    width: 670px;
+    border: greenyellow;
+    border-width: 5px;
+    border-style: solid;
     float: left;
+    text-align: center;
+    margin: 0.5em;
+    padding: 1em;
+
 }
 
 #aside{
-    height: 100%;
-    width: 30%;
-    background-color: burlywood;
-    margin-right: 0.5em;
-    border-radius: 1em;
+    height: 83%;
+    width: 212px;
+    border: greenyellow;
+    border-width: 5px;
+    border-style: solid;
     float: right;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    margin-right: 0em;
+    padding: 1em;
 }
-
-.articulo{
-    width: 96%;
-    height: 20%;
-    background-color: firebrick;
-    margin: 1em;
-    border-radius: 1em;
+#conteni3{
+    height: 65px;
+    border: blue;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 0.5em;
 }
